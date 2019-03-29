@@ -1,0 +1,13 @@
+<mat-card class="example-card">
+  <mat-card-header>
+    <div mat-card-avatar>
+      <img mat-card-avatar src="https://lesidea.com/cajondesastre/wp-content/uploads/2016/03/Usuario-Twitter-460-x-300.png" alt="Photo of a Shiba Inu" (click)="infoUsuario()">
+    </div>
+    <mat-card-title>@{{mySelectedTweet.author}}</mat-card-title>
+    <mat-card-subtitle>{{mySelectedTweet.id}}</mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-content>
+    <p>
+      {{mySelectedTweet.text}}
+    </p>
+  </mat-card-content>
